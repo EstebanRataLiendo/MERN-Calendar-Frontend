@@ -1,8 +1,8 @@
 
 import { useEffect } from 'react';
+import Swal from 'sweetalert2';
 import { useAuthStore, useForm } from '../../hooks';
 import './LoginPage.css';
-import Swal from 'sweetalert2';
 
 const loginFormFields = {
     loginEmail:     '',

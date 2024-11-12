@@ -1,5 +1,5 @@
 import { useCalendarStore } from "../../hooks"
-import { onDeleteEvent } from "../../store";
+
 
 export const FabDelete = () => {
 
